@@ -7,7 +7,7 @@
 #!/bin/sh
 echo
 
-opkg install --force-overwrite  https://github.com/tar1971/dreamsatpanel/blob/main/enigma2-plugin-extensions-dreamsatpanel_1.3_all.ipk?raw=true
+opkg install --force-overwrite  https://github.com/tarekzoka/dreamsat/blob/main/enigma2-plugin-extensions-dreamsatpanel_1.3.deb?raw=true
 wait
 #!/bin/sh
 #

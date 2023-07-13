@@ -7,14 +7,14 @@
 #!/bin/sh
 echo
 
-opkg install --force-overwrite  https://github.com/tarekzoka/dreamsat/blob/main/enigma2-plugin-extensions-dreamsatpanel_1.3_all.ipk?raw=true
+opkg install --force-overwrite  https://github.com/tarekzoka/dreamsat/blob/main/enigma2-plugin-extensions-dreamsatpanel_1.5_all.ipk?raw=true
 wait
 #!/bin/sh
 #
 
-wget -O /tmp/dreamsatpanel_1.3.deb "https://github.com/tarekzoka/dreamsat/blob/main/enigma2-plugin-extensions-dreamsatpanel_1.3.deb?raw=true"
+wget -O /tmp/dreamsatpanel_1.5.deb "https://github.com/tarekzoka/dreamsat/blob/main/enigma2-plugin-extensions-dreamsatpanel_1.5.deb?raw=true"
 wait
-apt-get update ; dpkg -i /tmp/dreamsatpanel_1.3.deb ; apt-get -y -f install
+apt-get update ; dpkg -i /tmp/dreamsatpanel_1.5.deb ; apt-get -y -f install
 wait
 dpkg -i --force-overwrite /tmp/*.deb
 wait
